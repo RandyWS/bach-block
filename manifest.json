@@ -4,12 +4,14 @@
   "version": "1.0",
   "description": "Bachlor Franchise Spoiler Blocker",
   "icons": {
-    "rose": "img/rose.png"
+    "16": "img/rose.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "img/rose.png",
-    "default_popup": "popup.html"
+    "default_popup": "blocker.html"
   },
   "permissions": ["activeTab"],
-  "content_scripts": [{ "js": ["jquery-3.0.0.min.js", "blocker.js"] }]
+  "content_scripts": [
+    { "matches": ["*://*/*"], "js": ["jquery.min.js", "blocker.js"] }
+  ]
 }

@@ -5,13 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bach-Block</title>
-    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery.min.js"></script>
     <script src="blocker.js"></script>
   </head>
 
   <body>
-    <div class="rowField">
-      <button id="submit" class="large">Calculate</button>
+    <div id="form">
+      <label>Input</label>
+      <input type="text" id="block-item" />
+      <input id="submit-button" type="submit" value="submit" />
     </div>
+    <div id="listView"></div>
+    <input id="clear-button" type="submit" value="clear" />
   </body>
 </html>
