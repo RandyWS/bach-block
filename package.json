@@ -1,0 +1,8 @@
+{
+  "name": "bach-block",
+  "version": "1.0.0",
+  "description": "Bachlor Franchise Spoiler Blocker",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

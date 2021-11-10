@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Bach-Block",
+  "version": "1.0",
+  "description": "Bachlor Franchise Spoiler Blocker",
+  "icons": {
+    "rose": "img/rose.png"
+  },
+  "browser_action": {
+    "default_icon": "img/rose.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [{ "js": ["jquery-3.0.0.min.js", "blocker.js"] }]
+}
