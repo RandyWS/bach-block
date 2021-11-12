@@ -14,7 +14,7 @@ body {
   width: 300px;
   height: 250px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 h1 {
@@ -30,5 +30,5 @@ h1 {
 
 .text {
   font-family: Helvetica;
-  font-size: 30;
+  font-size: 1.4em;
 }

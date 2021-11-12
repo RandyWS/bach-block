@@ -14,6 +14,6 @@
   },
   "permissions": ["activeTab"],
   "content_scripts": [
-    { "matches": ["*://*/*"], "js": ["jquery.min.js", "blocker.js"] }
+    { "matches": ["https://*/*"], "js": ["jquery.min.js", "blocker.js"] }
   ]
 }
