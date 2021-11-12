@@ -4,6 +4,8 @@
   "version": "1.0",
   "description": "Bachlor Franchise Spoiler Blocker",
   "icons": {
+    "128": "img/rose.png",
+    "48": "img/rose.png",
     "16": "img/rose.png"
   },
   "action": {

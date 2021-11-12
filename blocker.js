@@ -26,17 +26,14 @@ $(function () {
 
 // Handles searching for spoilers
 function searchForSpoilers() {
-  console.log("function called");
   if (keywords.length) {
-    console.log("function called and keywords");
     var search = "";
     keywords.forEach(function (item) {
-      console.log("item", item);
       search = search + "p:contains('" + item + "'), ";
     });
-    console.log("search", search);
     search = search.substring(0, search.length - 2);
-    console.log("search", search);
-    $(search).parents(".userContentWrapper").css("filter", "blur(5px)");
+
+    $(search).parent(".userContentWrapper").css("filter", "blur(5px)");
+    $(search).parent().css("filter", "blur(5px)");
   }
 }
